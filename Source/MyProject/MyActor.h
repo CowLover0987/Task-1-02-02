@@ -14,9 +14,6 @@ class MYPROJECT_API AMyActor : public AActor
 public:	
 	// Sets default values for this actor's properties
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = TestActor)
-	float speed;
-
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = TestActor)
 	FString message;
 
 	// Sets default values for this actor's properties
