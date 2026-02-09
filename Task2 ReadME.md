@@ -48,7 +48,7 @@ I created two variables, one which was the Result of a random number picked with
 ```
 I was only able to use two of the list but they both have logic within them and in each there is a UE_LOG() to identify which function is being called.
 
-![in game screenshot]((https://github.com/CowLover0987/The-Lost-Demo-Screenshots/blob/main/Screenshot%202026-02-09%20175049.png))
+![Output Log](https://github.com/CowLover0987/The-Lost-Demo-Screenshots/blob/main/Screenshot%202026-02-09%20175049.png)
 
 * * *
 
