@@ -15,7 +15,6 @@ public:
 	// Sets default values for this actor's properties
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = TestActor)
 	FString message;
-	int64 number = 0;
 
 	// Sets default values for this actor's properties
 	AMyActor();

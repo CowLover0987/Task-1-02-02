@@ -2,11 +2,6 @@
 
 
 #include "MyActor.h"
-#include "Kismet/KismetMathLibrary.h"
-
-int32 Max = 100;
-
-int32 Result = UKismetMathLibrary::RandomInteger(Max);
 
 // Sets default values
 AMyActor::AMyActor()
@@ -20,17 +15,14 @@ AMyActor::AMyActor()
 void AMyActor::BeginPlay()
 {
 	Super::BeginPlay();
-	UE_LOG(LogTemp, Log, TEXT("Begin Play Function"));
-	UE_LOG(LogTemp, Log, TEXT("My Random Int Value: %lld"), Result);
+	
 }
 
 // Called every frame
 void AMyActor::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-	UE_LOG(LogTemp, Log, TEXT("Event Tick Function"));
-	number++;
-	UE_LOG(LogTemp, Log, TEXT("My Counting Int Value: %lld"), number);
+
 }
 
 // void ATestActor::SayHi()
